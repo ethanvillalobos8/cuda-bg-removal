@@ -25,6 +25,9 @@ wheels/
 *.egg
 MANIFEST
 
+# Virtualenv
+.venv/
+
 # PyCharm
 .idea/
 

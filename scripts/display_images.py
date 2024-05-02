@@ -15,7 +15,7 @@ def display_images(original_dir, processed_dir):
             if original_image is None or processed_image is None:
                 continue
 
-            # Resize for consistent display if necessary
+            # Resize for consistent display
             processed_image = cv2.resize(processed_image, (original_image.shape[1], original_image.shape[0]))
 
             # Concatenate images horizontally
